@@ -1,0 +1,194 @@
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    height: 30px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display:grid;
+    grid-template-areas: 'awesome picture'
+                        'awesome picture'
+                        'subtext picture'
+                        'subtext picture'
+                        'sign picture';
+    height: 350px;
+    padding-bottom: 20px;
+}
+
+.random {
+    background-color: white;
+    height: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    height: 300px;
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
+    font-size: smaller;
+    margin-right: 50px;
+    margin-top: 0;
+}
+
+blockquote {
+    padding: 25px;
+    margin-bottom: 0;
+    
+}
+
+ul {
+    width: 40%;
+    margin-top: 0;
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+}
+
+li {
+    list-style-type: none;    
+}
+
+.hero h1 {
+    grid-area: awesome;
+    color: #F9FAF8;
+    width: 50%;
+    font-weight: 800%;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+
+.hero p {
+    grid-area: subtext;
+    color: #E5E7EB;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+
+.hero button {
+    grid-area: sign;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    width: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+
+.hero img {
+    grid-area: picture;
+    margin-right: 100px;
+}
+
+.call {
+    height: 250px;
+    background-color: white;
+}
+
+.signup {
+    height: 125px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 62px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.signup .bold {
+    font-weight: bold;
+    font-size: larger;
+    width: 60%;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.signup .instruction {
+    width: 60%;
+    margin-left: 40px;
+}
+
+.signup .instruction {
+    width: 60%;
+    margin-left: 40px;
+    display: inline;
+}
+
+.signup button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    color:#F9FAF8;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex: 1;
+    margin: auto;
+    width: 60%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;    
+    border: solid #3882F6;
+    border-radius: 15px;    
+    margin: auto;
+}
+
+.underboxes {
+    display: flex;
+    flex: 1;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.underbox {
+    display:inline-block;
+    height: 100px;
+    width: 100px;    
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.random h2 {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.footer {
+    height: 50px;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 10px;
+}
